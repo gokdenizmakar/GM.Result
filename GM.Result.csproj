@@ -4,6 +4,32 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>GM Result Design Pattern</Title>
+    <Authors>Gökdeniz Makar</Authors>
+    <Description>This is a my Result pattern.</Description>
+    <Copyright>LICENSE.txt</Copyright>
+    <RepositoryUrl>https://github.com/gokdenizmakar/GM.Result/</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/gokdenizmakar/GM.Result/</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Result Pattern</PackageTags>
+    <PackageReleaseNotes>This is first commit.</PackageReleaseNotes>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <IncludeSymbols>True</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
